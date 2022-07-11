@@ -1,13 +1,16 @@
-// import { useState } from 'react'
+import React , { Component} from 'react'
 import './App.css'
 
-function App() {
 
-  return (
-    <div className="App">
-    </div>
-  )
+class  App extends Component {
+
+  render(){
+    return (
+      <div>
+        <TourCard/>
+      </div>
+    )
+  }
 }
 
-export default App
-e
+export default App;
